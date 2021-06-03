@@ -1,0 +1,2 @@
+rootProject.name = "Android-Modern-API-Call-Kotlin-MVVM"
+include ':app'
