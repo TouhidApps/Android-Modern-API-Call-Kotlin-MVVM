@@ -100,22 +100,22 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.35")
 
     // To use by viewModels() in injection
-    implementation("androidx.fragment:fragment-ktx:1.3.4")
+    implementation("androidx.fragment:fragment-ktx:1.3.6")
 
     // RecyclerView
-    implementation("androidx.recyclerview:recyclerview:1.2.0")
+    implementation("androidx.recyclerview:recyclerview:1.2.1")
 
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
 
     // Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.7.1")
-    implementation("com.google.code.gson:gson:2.8.6")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.google.code.gson:gson:2.8.7")
 
     implementation("com.squareup.okhttp3:logging-interceptor:4.4.0") // for cache
 
     // Coil for image loading
-    implementation("io.coil-kt:coil:1.0.0")
+    implementation("io.coil-kt:coil:1.2.2")
 
     // ViewModel and LiveData
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
@@ -126,7 +126,7 @@ dependencies {
     implementation("com.github.wise4rmgod:AdnetwrokManager:0.1.0")
 
     // Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0")
 
     // To load NDK library
     implementation("com.getkeepsafe.relinker:relinker:1.4.3")
